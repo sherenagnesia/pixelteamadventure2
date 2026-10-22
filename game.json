@@ -1,0 +1,1573 @@
+{
+  "firstLayout": "Game",
+  "gdVersion": {
+    "build": 279,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.sheren.pixelteamadventure",
+    "pixelsRounding": true,
+    "projectUuid": "2399bb47-d33d-421e-b6c4-8f312d207dd0",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Pixel Team Adventure - Sheren",
+    "description": "Micro game intro Sheren Agnesia Sukarno 240533607010",
+    "author": "Sheren Agnesia Sukarno",
+    "windowWidth": 900,
+    "windowHeight": 520,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "watermark": {
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/animations/Walk/walk_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Walk/walk_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Walk/walk_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Jump/jump_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Jump/jump_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/animations/Dead/dead_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animations/Dead/dead_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/background.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/platform.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/star.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/door_locked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/door_locked.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/door_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/door_open.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/hazard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/hazard.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 245,
+      "g": 255,
+      "r": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game",
+      "name": "Game",
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.9,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 520,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "89993c68-1460-4cf2-9f31-3b85ede8b266",
+          "width": 900,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "65bc3156-44e6-4bbe-9bdf-82b203302a0a",
+          "width": 900,
+          "x": 0,
+          "y": 458,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 161,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "095d79c0-5481-4902-8290-1e2a839cfa9a",
+          "width": 92,
+          "x": 58,
+          "y": 303,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "",
+          "name": "Star1",
+          "persistentUuid": "2183040a-192c-42b4-a074-138b3d089a2d",
+          "width": 45,
+          "x": 230,
+          "y": 390,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "",
+          "name": "Star2",
+          "persistentUuid": "d6af6438-0612-425f-9bee-46a3727fb3ce",
+          "width": 45,
+          "x": 456,
+          "y": 330,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "",
+          "name": "Star3",
+          "persistentUuid": "d06312be-b701-41c6-9cde-70767b86b958",
+          "width": 45,
+          "x": 672,
+          "y": 390,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "",
+          "name": "Door",
+          "persistentUuid": "8301fbaa-4a61-41c6-9bf2-b7b650d74d8f",
+          "width": 70,
+          "x": 810,
+          "y": 366,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 22,
+          "layer": "",
+          "name": "Hazard",
+          "persistentUuid": "958759d7-fceb-44be-b56c-cfd6a0f0ebbc",
+          "width": 32,
+          "x": 540,
+          "y": 437,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "9d80c5f0-9402-4adb-8848-e0aa6bdd8a3a",
+          "width": 0,
+          "x": 18,
+          "y": 15,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Identity",
+          "persistentUuid": "3e2c8d37-e4ca-48a9-91b5-82824bf67c05",
+          "width": 0,
+          "x": 18,
+          "y": 53,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ScoreText",
+          "persistentUuid": "97c5f191-2ebb-45ff-a874-668a29f417c6",
+          "width": 0,
+          "x": 18,
+          "y": 84,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "InfoText",
+          "persistentUuid": "ec4103e1-a261-4647-8c2f-6b37b00bb118",
+          "width": 0,
+          "x": 18,
+          "y": 116,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "VictoryText",
+          "persistentUuid": "f87da5ab-b4ae-4285-b83c-45af31289759",
+          "width": 0,
+          "x": 158,
+          "y": 220,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HelpText",
+          "persistentUuid": "3a486a67-5da5-4519-864f-3d9e9c3dc45d",
+          "width": 0,
+          "x": 18,
+          "y": 485,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Walk/walk_08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Jump/jump_08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/animations/Dead/dead_08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Ground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Star1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Star2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Star3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Door",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Locked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/door_locked.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/door_open.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Hazard",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/hazard.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "Title",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PIXEL TEAM ADVENTURE",
+          "characterSize": 28,
+          "color": "22;43;71",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "Identity",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sheren Agnesia Sukarno  |  240533607010",
+          "characterSize": 18,
+          "color": "22;43;71",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "ScoreText",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bintang 0/3",
+          "characterSize": 23,
+          "color": "22;43;71",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "InfoText",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Ambil tiga bintang dan temui pintu!",
+          "characterSize": 18,
+          "color": "22;43;71",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "VictoryText",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "VICTORYYY!  Tekan ENTER untuk ulang",
+          "characterSize": 30,
+          "color": "32;100;55",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "name": "HelpText",
+          "type": "TextObject::Text",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Panah/A-D: jalan  |  SPACE: lompat  |  R: ulang",
+          "characterSize": 16,
+          "color": "22;43;71",
+          "font": "",
+          "textAlignment": "left",
+          "outlineEnabled": false,
+          "outlineColor": "0;0;0",
+          "outlineThickness": 0,
+          "shadowEnabled": false,
+          "shadowColor": "0;0;0",
+          "shadowDistance": 0,
+          "shadowAngle": 0,
+          "shadowBlurRadius": 0
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "(function(){",
+            "// Pixel Team Adventure - logic runs once per frame.",
+            "const get = (name) => runtimeScene.getObjects(name)[0];",
+            "const player = get('Player');",
+            "if (!player) return;",
+            "const state = runtimeScene.__sherenState || (runtimeScene.__sherenState = {vx:0,vy:0,score:0,got:[false,false,false],won:false,dead:false,grounded:false,prevJump:false});",
+            "const key = (name) => gdjs.evtTools.input.isKeyPressed(runtimeScene,name);",
+            "const delta = Math.min(runtimeScene.getElapsedTime()/1000,0.04);",
+            "const restart = () => gdjs.evtTools.runtimeScene.replaceScene(runtimeScene,'Game',false);",
+            "if ((state.dead && key('r')) || (state.won && key('Return')) || key('r')) { restart(); return; }",
+            "const message = get('InfoText');",
+            "get('VictoryText').hide(!state.won);",
+            "if (!state.won && !state.dead) {",
+            "  const horizontal = (key('Right')||key('d')?1:0)-(key('Left')||key('a')?1:0);",
+            "  state.vx=horizontal*245;",
+            "  player.setX(Math.max(0,Math.min(900-player.getWidth(),player.getX()+state.vx*delta)));",
+            "  const jumping=key('Space')||key('Up')||key('w');",
+            "  if (jumping && !state.prevJump && state.grounded) {state.vy=-565;state.grounded=false;}",
+            "  state.prevJump=jumping;",
+            "  state.vy+=1300*delta;",
+            "  const oldBottom=player.getY()+player.getHeight();",
+            "  player.setY(player.getY()+state.vy*delta);",
+            "  const floor=458;",
+            "  if(state.vy>=0 && player.getY()+player.getHeight()>=floor && oldBottom<=floor+24){player.setY(floor-player.getHeight());state.vy=0;state.grounded=true;}",
+            "  if (player.getY()>530) {state.dead=true;player.setAnimation(3);message.setString('Karakter jatuh! Tekan R untuk ulang.');}",
+            "  if(!state.dead){",
+            "    const anim= !state.grounded?2:horizontal!==0?1:0;",
+            "    if(player.getAnimation()!==anim)player.setAnimation(anim);",
+            "    if(horizontal<0)player.flipX(true);else if(horizontal>0)player.flipX(false);",
+            "    const labels=['PROGRAMMER','PIXEL ARTIST','PROJECT & LEVEL DESIGNER'];",
+            "    for(let i=0;i<3;i++){",
+            "      if(state.got[i])continue;",
+            "      const star=get('Star'+(i+1));",
+            "      if(star && Math.abs(player.getX()+player.getWidth()/2-(star.getX()+star.getWidth()/2))<55 && Math.abs(player.getY()+player.getHeight()/2-(star.getY()+star.getHeight()/2))<95){",
+            "        state.got[i]=true;state.score++;star.hide(true);",
+            "        message.setString(labels[i]+' - Sheren Agnesia Sukarno | 240533607010');",
+            "      }",
+            "    }",
+            "    get('ScoreText').setString('Bintang: '+state.score+'/3');",
+            "    if(state.score===3){get('Door').setAnimation(1);}",
+            "    const door=get('Door');",
+            "    if(state.score===3 && player.getX()+player.getWidth()>door.getX() && player.getX()<door.getX()+door.getWidth()){",
+            "      state.won=true;message.setString('Semua peran berhasil diperkenalkan!');get('VictoryText').hide(false);",
+            "    }",
+            "    const hazard=get('Hazard');",
+            "    if(hazard && player.getX()+player.getWidth()-25>hazard.getX() && player.getX()+25<hazard.getX()+hazard.getWidth() && player.getY()+player.getHeight()>hazard.getY() && player.getY()+player.getHeight()<hazard.getY()+hazard.getHeight()+25){",
+            "      state.dead=true;player.setAnimation(3);message.setString('Game over! Tekan R untuk ulang.');",
+            "    }",
+            "  }",
+            "}",
+            "",
+            "})();"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": true,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": [],
+  "usedResources": []
+}
